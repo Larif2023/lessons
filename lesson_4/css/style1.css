@@ -1,0 +1,56 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Тип 0 Селектор * */
+* {
+  color: blue;
+}
+
+/* Тип 1 Селектор тегу */
+p {
+  color: rgb(21, 242, 9);
+}
+
+a {
+  color: red;
+}
+
+li {
+  color: green;
+}
+/* Тип 2 Селектор класу */
+.text,
+.lesson,
+a.about {
+  color: violet;
+}
+
+.article * {
+  color: darkmagenta;
+}
+
+/*  */
+#some-id {
+  color: yellow;
+}
+
+/* Комбінація селекторів */
+/* тег + клас */
+div.text {
+  color: blue;
+}
+
+/* клас + тег + клас */
+.lesson a.about {
+  color: lightcoral;
+}
+
+/* клас + клас */
+.article .article-txt-brown {
+  color: brown;
+}
+
+.txt-map > p {
+	color: darkred;
+}
+
