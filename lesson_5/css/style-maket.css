@@ -1,0 +1,81 @@
+/* Підключення шрифтів вручну */
+/*@import url("fonts.css");*/
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* ============= ШРИФТИ =============*/
+
+/* Google Fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+
+/* Основні стилі */
+
+body {
+  font-family: "Inter", sans-serif; /* За замовченням "Times New Roman" */
+  font-size: 18px; /* За замовченням 16px*/
+}
+
+/*Встановлює родину шріфту*/
+.home-task-1__title,
+.home-task-1__sub-title {
+  font-family: "Poppins", sans-serif;
+}
+
+/*Встановлює розмір шрифту*/
+.home-task-1__title {
+  font-size: 30px;
+}
+
+.home-task-1__sub-title {
+  font-size: 20px;
+}
+
+.home-task-2__title {
+  font-size: 40px;
+}
+
+/*Встановлення стилю шрифту*/
+
+/*Встановлює насиченість (товщину) шрифту*/
+.home-task-1__title,
+.home-task-1__sub-title {
+  font-weight: 600;
+}
+
+.home-task-2__title {
+  font-weight: 700;
+}
+
+/*Встановлює колір тексту*/
+.home-task-1__title,
+.home-task-2__title {
+  color: #37393f;
+}
+
+ol, ul {
+	line-height: 1.4;
+ }
+
+.home-task-1__sub-title {
+  color: #6b77e5;
+}
+
+/* Визначаємо міжрядковий інтервал */
+.home-task-1__title,
+.home-task-1__sub-title,
+.home-task-2__title {
+  line-height: 1.27; /* 38/30, 25.4/20, 50.8/40 */
+}
+
+.home-task-1__text,
+.home-task-2__text,
+.home-task-2__list {
+  line-height: 1.47; /* 26.31/18 */
+}
+
+.home-task-2__list {
+  font-weight: 500;
+}
