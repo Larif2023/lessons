@@ -1,0 +1,543 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+
+body {
+}
+
+/* == Licencing == */
+
+.block-1 {
+  padding: 50px 15px;
+  max-width: 1248px;
+  margin: 0 auto;
+}
+
+.licencing {
+  text-align: center;
+}
+
+.licencing-logo {
+  margin-bottom: 16px;
+}
+
+.logo__square {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #40ddb6;
+  margin: 0 6px 0 0;
+}
+
+.logo__text {
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.title {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.21;
+  margin-bottom: 70px;
+}
+
+.sub-title {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+  margin-bottom: 11px;
+}
+
+.text {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.46;
+  margin-bottom: 32px;
+}
+
+.text p {
+  margin-bottom: 15px;
+}
+
+.sub-title-icons {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.licence {
+  color: #40ddb6;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.icons {
+  margin-bottom: 100px;
+}
+
+.text-blue {
+  color: #40ddb6;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.46;
+}
+
+.pexels {
+  margin-bottom: 24px;
+}
+
+.unsplash {
+  margin-bottom: 100px;
+}
+
+.text-blue-1 {
+  color: #40ddb6;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.46;
+}
+
+/* == Project Information == */
+
+.block-2 {
+  padding: 10px 15px 50px;
+  max-width: 868px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.27;
+  margin-bottom: 13px;
+}
+
+.text-block-2 {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.46;
+}
+
+p {
+  margin-bottom: 35px;
+}
+
+.list-block-2 li {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.46;
+  margin-bottom: 35px;
+}
+
+/* == Clothing for Women Online in India == */
+.block-3 {
+  padding: 10px 0 50px;
+  max-width: 1270px;
+  margin: 0 auto;
+}
+
+.left {
+  padding-left: 21px;
+  margin-bottom: 20px;
+}
+
+.logo-block-3 {
+  margin-bottom: 30px;
+}
+
+.logo__text-block-3 {
+  width: 552px;
+  color: #3c4242;
+  font-family: Core Sans C;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.19;
+  margin-bottom: 25px;
+}
+
+.logo-radius {
+  display: inline-block;
+  width: 6px;
+  height: 28px;
+  border-radius: 10px;
+  background: #8a33fd;
+  margin: 0 3px 0 0;
+}
+
+h4 {
+  color: #807d7e;
+  font-family: Core Sans C;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.67;
+  margin-bottom: 25px;
+}
+
+p {
+  color: #807d7e;
+  font-family: "Causten", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.67;
+  margin-bottom: 20px;
+}
+
+.euphoria {
+  color: #807d7e;
+  font-family: Causten;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 33.5px;
+  letter-spacing: 0.4px;
+}
+
+/* == We Develop Creat Custom Jewels == */
+
+.block-4 {
+  padding: 10px 0;
+  font-family: "Cormorant Infant";
+  margin-bottom: 150px;
+}
+
+.block-4__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.block-4__content {
+  display: inline-block;
+  max-width: 503px;
+  padding: 70px 0;
+  margin-right: 75px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.block-4__what {
+  color: #d58417;
+  font-size: 20px;
+  line-height: 1; /* 20px */
+  margin-bottom: 27px;
+}
+
+.block-4__title {
+  color: #000;
+  font-size: 64px;
+  line-height: 1; /* 64px */
+  margin-bottom: 31px;
+}
+
+.block-4__text p {
+  color: #606060;
+  font-size: 30px;
+  line-height: 1.4; /* 42px */
+}
+
+.block-4__images {
+  vertical-align: top;
+  display: inline-block;
+  font-size: 0;
+}
+
+.block-4__images {
+  vertical-align: top;
+  display: inline-block;
+  font-size: 0;
+}
+
+.block-4__wrapper-image {
+  vertical-align: middle;
+  display: inline-block;
+  border: 1px solid #502203;
+  border-radius: 235px;
+}
+
+.block-4__wrapper-image img {
+  border-radius: 235px;
+}
+
+.first-image {
+  margin-right: 30px;
+  width: 177px;
+  height: 336px;
+}
+
+.first-image img {
+  margin-left: -10px;
+  padding-top: 14px;
+}
+
+.second-image {
+  width: 307px;
+  height: 500px;
+}
+
+.second-image img {
+  margin-left: -11px;
+  padding-top: 19px;
+}
+/*  */
+/* Practice */
+
+.examples {
+  padding: 15px;
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+.examples-title {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 700;
+  color: #000;
+  font-size: 64px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.examples__sub-title {
+  color: #d58417;
+  font-weight: 700;
+  margin-bottom: 27px;
+  font-family: "Cormorant+Infant", serif;
+  font-size: 25px;
+  line-height: 33.5px;
+  text-transform: uppercase;
+}
+
+.example-block-1 p {
+  max-width: 60%;
+  border-top: 5px solid #03024d;
+  border-right: 12px double #4b1097;
+  border-bottom: 4px dotted #14ee1f;
+  border-left: 8px dashed #eb0505;
+  margin-bottom: 20px;
+}
+
+.example-block-1 a {
+  color: brown;
+  border-bottom: 2px dashed;
+}
+
+.example-block-1 a:hover {
+  color: yellow;
+}
+
+.example-block-2 p {
+  max-width: 60%;
+  outline: 5px solid #f80303;
+  margin-bottom: 20px;
+}
+
+.example-block-2 a {
+  color: yellow;
+}
+
+.example-block-2 a:focus {
+  outline: 1px dotted blue;
+}
+
+.example-block-3 p {
+  max-width: 60%;
+  border: 12px double yellow;
+  border-radius: 20px 10px;
+  margin-bottom: 20px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: rosybrown;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.example-block-4 p {
+  max-width: 60%;
+  border: 10px dotted #6f06f8bf;
+  box-shadow: 10px -10px 5px 2px #8d41f0bf, -5px -5px 20px 5px gray;
+  margin-bottom: 20px;
+}
+
+.example-block-5 p {
+  max-width: 60%;
+  border: 8px dashed #aa0903;
+  box-shadow: inset 10px 10px 10px 10px #d84a45;
+  margin-bottom: 20px;
+}
+
+.example-block-6 p {
+  max-width: 60%;
+  background-color: #ee0a4e;
+  border: 5px solid #ec628b;
+  border-radius: 20px;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+.example-block-7 p {
+  max-width: 60%;
+  opacity: 0;
+  margin-bottom: 20px;
+}
+
+.example-block-8 p {
+  max-width: 60%;
+  visibility: hidden;
+  margin-bottom: 20px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight {
+  margin-bottom: 20px;
+}
+.example-inline-1 {
+  border-top: 5px solid #03024d;
+  border-right: 12px double #4b1097;
+  border-bottom: 4px dotted #14ee1f;
+  border-left: 8px dashed #eb0505;
+  line-height: 2;
+}
+
+.two .example-inline-2 {
+  outline: 5px solid #f80303;
+  line-height: 2;
+}
+
+.three .example-inline-3 {
+  border: 12px double yellow;
+  border-radius: 20px 10px;
+  line-height: 2;
+}
+
+.four .example-inline-4 {
+  border: 10px dotted #6f06f8bf;
+  box-shadow: 10px -10px 5px 2px #8d41f0bf, -5px -5px 20px 5px gray;
+  line-height: 2;
+}
+
+.five .example-inline-5 {
+  border: 8px dashed #aa0903;
+  box-shadow: inset 10px 10px 10px 10px #d84a45;
+  line-height: 2;
+}
+
+.example-inline-6 {
+  background-color: #f3ec60;
+  border: 5px solid #6463a7;
+  border-radius: 20px;
+  opacity: 0.5;
+  line-height: 2;
+}
+
+.example-inline-7 {
+  opacity: 0;
+  line-height: 2;
+}
+
+.example-inline-8 {
+  visibility: hidden;
+  line-height: 2;
+}
+
+.example-image-1 {
+  border-top: 5px solid #03024d;
+  border-right: 12px double #4b1097;
+  border-bottom: 4px dotted #14ee1f;
+  border-left: 8px dashed #eb0505;
+  max-width: 40%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.example-image-2 {
+  outline: 5px solid #f80303;
+  max-width: 40%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.example-image-3 {
+  border: 12px double yellow;
+  border-radius: 20px 10px;
+  max-width: 40%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.example-image-4 {
+  border: 10px dotted #6f06f8bf;
+  box-shadow: 10px -10px 5px 2px #8d41f0bf, -5px -5px 20px 5px gray;
+  max-width: 40%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.example-image-5 {
+  border: 8px dashed #aa0903;
+  box-shadow: inset 10px 10px 10px 10px #d84a45;
+  max-width: 40%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.example-image-6 {
+  background-color: #f3ec60;
+  border: 5px solid #6463a7;
+  border-radius: 20px;
+  opacity: 0.5;
+  max-width: 40%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.example-image-7 {
+  opacity: 0;
+  max-width: 40%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.example-image-8 {
+  visibility: hidden;
+  max-width: 40%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 10px;
+}
