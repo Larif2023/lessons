@@ -1,0 +1,658 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/*Скидання стилів*/
+@import url("reset.css");
+
+/* ======================================= */
+body {
+}
+
+header {
+  display: block;
+  margin: 0 auto 50px;
+  padding-top: 10px;
+}
+
+header,
+footer {
+  font-family: "Poppins", sans-serif;
+  color: #474747;
+  font-weight: 600;
+  text-align: center;
+  font-size: 20px;
+  background-color: #d4d4d4;
+}
+
+main {
+  margin-bottom: 80px;
+}
+
+.title-lesson {
+  color: #4b0863;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.list-menu {
+  padding: 10px 0;
+}
+
+.menu-item {
+  display: inline-block;
+  background-color: rgba(241, 84, 228, 0.493);
+  padding: 10px 15px;
+  margin-right: 20px;
+  border-radius: 20px 5px;
+  box-shadow: 5px 5px 10px #2d2d2d;
+}
+
+/* ========== TASK-1 EUPHORIA ========== */
+
+.conteiner-euphoria {
+  max-width: 1240px;
+  color: rgba(255, 255, 255, 1);
+  margin: 0 auto;
+  vertical-align: middle;
+  font-size: 0;
+  margin-bottom: 60px;
+}
+
+.blocklinks-euphoria {
+  display: inline-block;
+  width: 614px;
+  height: 640px;
+  background: url("../img/fashion_img1.jpg");
+  border-radius: 8px 0 0 8px;
+  vertical-align: top;
+  padding: 183px 74px 173px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blockright-euphoria {
+  display: inline-block;
+  width: 626px;
+  height: 640px;
+  border-radius: 0 8px 8px 0;
+  vertical-align: top;
+  background: url("../img/fashion_img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blocktext-euphoria {
+  font-family: "Poppins", sans-serif;
+  min-width: 466px;
+}
+
+.bigtitle-euphoria {
+  font-family: "Causten", sans-serif;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1.47; /* 50px */
+  letter-spacing: 0.208px;
+  margin-bottom: 30px;
+}
+
+.text-euphoria {
+  font-size: 19px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  width: 168px;
+  height: 46px;
+  background: #fff;
+  border-radius: 8px;
+  align-items: center;
+  padding: 12px 38px;
+}
+
+.btn-euphoria {
+  display: inline-block;
+  color: #3c4242;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* ========== TASK-2,3 BUSINESSPLAN ========== */
+
+.conteiner-businessplan,
+.conteiner-clientprojects {
+  max-width: 1220px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #7d7d7d;
+  margin: 0 auto 60px;
+  outline: 1px dashed gray;
+}
+
+.conteiner-businessplan {
+  font-size: 0;
+}
+
+.conteiner-clientprojects {
+  line-height: 1.46;
+  text-align: center;
+  padding: 150px 0;
+  margin-bottom: 60px;
+}
+
+.blockcolor-businessplan {
+  display: inline-block;
+  width: 478px;
+  min-height: 983px;
+  /*background-color: #7d7d7d;*/
+  background-color: #fdfbfb;
+  margin-right: 69px;
+}
+
+.blocktext-businessplan {
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #7d7d7d;
+  max-width: 673px;
+  min-height: 983px;
+  text-align: left;
+  line-height: 1.46;
+  padding: 145px 0;
+  vertical-align: top;
+}
+
+.decortitle-businessplan,
+.decortitle-clientprojects {
+  color: #37393f;
+  font-weight: 500;
+  padding-left: 18px;
+  vertical-align: middle;
+
+  background-image: url(../img/Icon4.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+
+  margin-bottom: 20px;
+}
+
+.decortitle-businessplan {
+  max-width: 200px;
+  text-align: left;
+}
+
+.decortitle-clientprojects {
+  max-width: 148px;
+  margin: 0 auto 20px;
+}
+
+.big-title-businessplan,
+.big-title-clientprojects {
+  font-family: "Poppins", sans-serif;
+  color: #37393f;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+  margin-bottom: 20px;
+}
+
+.big-title-businessplan {
+  max-width: 414px;
+  text-align: left;
+}
+
+.big-title-clientprojects {
+  text-align: center;
+}
+
+.text-businessplan > p {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.list-businessplan {
+  margin-bottom: 43px;
+}
+
+.item-businessplan {
+  font-family: "Poppins", sans-serif;
+  color: #37393f;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 23px;
+  vertical-align: middle;
+  background-image: url(../img/Vector.png);
+  background-size: 27px;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+}
+
+.boxblock-businessplan {
+  font-size: 0;
+  text-align: center;
+  margin-bottom: 37px;
+}
+
+.box-experience,
+.box-awards {
+  display: inline-block;
+  padding: 32px;
+  border: 1px solid #e3e3e3;
+  max-width: 295px;
+  margin-right: 60px;
+}
+
+.box-experience {
+  margin-right: 21px;
+}
+
+.boxtexst-experience {
+  max-width: 231px;
+  background-image: url(../img/Icon1.png);
+  background-size: 39px;
+  background-repeat: no-repeat;
+  padding-left: 58px;
+}
+
+.boxtexst-awards {
+  max-width: 223px;
+  background-image: url(../img/Icon2.png);
+  background-size: 39px;
+  background-repeat: no-repeat;
+  padding-left: 58px;
+}
+
+.itemtitle-experience,
+.itemtitle-awards,
+.itemtitle-clientprojects {
+  font-family: "Poppins", sans-serif;
+  color: #37393f;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.itemtitle-clientprojects {
+  line-height: 1.27;
+}
+
+.itemsubtitle-clientprojects {
+  font-size: 14px;
+  line-height: 1.46;
+  text-align: right;
+  max-width: 95px;
+  background-image: url(../img/Group\ 22.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.text-experience {
+  font-size: 16px;
+  line-height: 1.35;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.battom {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  background: #6877e5;
+  padding: 21px 27px;
+  margin-left: 5px;
+}
+
+.text-item {
+  background: url(../img/arrow.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+/* =================================== */
+
+.text-clientprojects {
+  max-width: 852px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 47px;
+}
+
+.listrow-clientprojects {
+  font-size: 0;
+  margin-bottom: 58px;
+}
+
+.item-clientprojects {
+  display: inline-block;
+}
+
+.link-item {
+  display: inline-block;
+  width: 384px;
+}
+
+.card-img {
+  width: 100%;
+  height: 582px;
+  margin-bottom: 24px;
+}
+
+.item-margin {
+  margin-right: 34px;
+}
+
+.card-img-01 {
+  background: url(../img/projects_img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img-02 {
+  background: url(../img/image-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img-03 {
+  background: url(../img/projects_img3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img-04 {
+  background: url(../img/projects_img4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img-05 {
+  background: url(../img/projects_img5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img-06 {
+  background: url(../img/projects_img6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.itemtitle-clientprojects {
+  margin-bottom: 10px;
+}
+
+/* ========== TASK-4 CLOTHING IN INDIA ========== */
+
+.conteiner-clothing {
+  max-width: 1240px;
+  font-family: "Causten", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  color: #807d7e;
+  text-align: left;
+  line-height: 1.67;
+  margin: 0 auto 100px;
+}
+
+.block-title-clothing {
+  vertical-align: top;
+  font-size: 0;
+  margin-bottom: 30px;
+}
+
+.decor-title-clothing {
+  display: inline-block;
+  width: 6px;
+  height: 28px;
+  border-radius: 10px;
+  background-color: #8a33fd;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.title-clothing {
+  display: inline-block;
+  font-family: "Core Sans C", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.19;
+  letter-spacing: 0.56px;
+  color: #3c4242;
+
+  text-align: left;
+  vertical-align: middle;
+}
+
+.block-text-clothing {
+  padding-left: 21px;
+}
+
+.subtitle-clothing {
+  font-family: "Core Sans C", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #807d7e;
+  margin-bottom: 25px;
+}
+
+.text-clothing p {
+  margin-bottom: 20px;
+}
+
+.text-clothing span {
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+/* ---------- PRACTICE ---------- */
+
+.border,
+.appearance,
+.decor {
+  max-width: 1600px;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: #5e046a;
+  text-align: center;
+  margin: 0 auto 60px;
+  padding: 30px;
+}
+
+/* ---------------------------------- */
+.footer-title {
+  padding: 20px 0;
+  margin-bottom: 15px;
+}
+
+.footer-btn {
+  width: 400px;
+  height: 30px;
+  margin: 0 auto 30px;
+}
+
+.footer-buttom {
+  display: inline-block;
+  color: #40ddb6;
+  padding: 10px 30px;
+  background-color: #1d0f9b;
+  border-radius: 40px 15px;
+  box-shadow: inset 5px 5px 12px #a2a6f2;
+}
+
+.block-footer p {
+  margin-bottom: 20px;
+}
+
+/* =============================practic================================================== */
+
+.practice {
+  max-width: 1500px;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto 50px;
+}
+.title-practice {
+  font-size: 26px;
+  color: #37393f;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* універсальна властивість беграунд */
+.universal-backgraund {
+  font-size: 0;
+  outline: 1px dashed rgb(93, 227, 151);
+  text-align: center;
+  max-width: 100%;
+  min-height: 600px;
+  padding: 20px;
+  background: #6152eb url("../img/photo1.jpg") center center no-repeat scroll;
+  margin-bottom: 40px;
+  background-size: cover;
+}
+.sub-title {
+  display: inline-block;
+  width: 100%;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: top;
+  margin-bottom: 30px;
+  color: #181616;
+  text-shadow: 2px 1px 1px #dedddd;
+}
+
+/* -----Окремі властивості---- */
+
+.separate {
+  vertical-align: middle;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.fon,
+.img,
+.gradient {
+  display: inline-block;
+  font-size: 20px;
+  color: #2d2d2d;
+  font-weight: 600;
+  text-shadow: 3px 3px 5px #eae9e9;
+  text-align: center;
+  vertical-align: middle;
+  width: 380px;
+  height: 200px;
+}
+
+.fon {
+  background-color: #f73933;
+  margin-right: 10px;
+}
+.img {
+  background-image: url("../img/photo10.jpg");
+  margin-right: 10px;
+}
+
+.gradient {
+  background-image: linear-gradient(25.95deg, #0854f8 0%, #f7f44c 100%);
+}
+
+/* ----Повторення фонового зображення---- */
+
+.repeat {
+  margin-bottom: 50px;
+}
+
+.no-repeat,
+.repeat-x,
+.repeat-y,
+.pattern {
+  font-size: 28px;
+  color: #2f1c6a;
+  font-weight: 600;
+  text-shadow: 3px 3px 5px #eae9e9;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+  min-height: 300px;
+  margin-bottom: 30px;
+  outline: 1px dashed rgb(124, 5, 66);
+}
+
+.no-repeat {
+  background-image: url("../img/photo11.jpg");
+  background-repeat: no-repeat;
+}
+.repeat-x {
+  background-image: url("../img/photo11.jpg");
+  background-repeat: repeat-x;
+}
+.repeat-y {
+  background-image: url("../img/photo11.jpg");
+  background-repeat: repeat-y;
+  min-height: 900px;
+}
+.pattern {
+  background-image: url("../img/photo13.jpg");
+  width: 100%;
+  min-height: 900px;
+}
+
+/* ----Позиція----- */
+
+.position {
+  font-size: 0;
+  margin-bottom: 50px;
+}
+
+.left-top,
+.center,
+.right,
+.top,
+.bottom {
+  display: inline-block;
+  font-size: 22px;
+  color: black;
+  font-weight: 600;
+  text-shadow: 3px 3px 5px #eae9e9;
+  text-align: center;
+  vertical-align: top;
+  width: 250px;
+  min-height: 200px;
+  margin: 9px;
+  outline: 1px dashed rgb(14, 3, 168);
+  background-image: url("../img/checked.svg");
+  background-repeat: no-repeat;
+}
+
+.left-top {
+  /* 0 0 (left top) за замовченням */
+}
+.center {
+  background-position: center;
+}
+.right {
+  background-position: right;
+}
+.top {
+  background-position: top;
+}
+.bottom {
+  background-position: bottom;
+}
+
+/* -------Прокручування фонового зображення------- */
+
+.attachmert {
+  max-width: 1400px;
+  min-height: 600px;
+  background-image: url("../img/Photo3.jpg");
+  background-attachment: fixed;
+}
