@@ -1,0 +1,45 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+  background-color: #5f9ea0;
+}
+
+/* Header, footer */
+.header,
+.footer {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Main */
+div {
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.rastr img {
+  width: 100%;
+}
+
+.second-img {
+  max-width: 400px;
+}
+
